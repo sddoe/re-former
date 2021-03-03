@@ -239,3 +239,142 @@ Processing by UsersController#new as HTML
 Completed 200 OK in 15ms (Views: 14.1ms | ActiveRecord: 0.0ms | Allocations: 3349)
 
 
+Started GET "/users/new" for 127.0.0.1 at 2021-03-03 14:33:06 -0500
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 25.4ms | Allocations: 2813)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 34.9ms | Allocations: 5816)
+Completed 200 OK in 42ms (Views: 39.5ms | Allocations: 6903)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2021-03-03 14:38:17 -0500
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 5.0ms | Allocations: 613)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 20.2ms | Allocations: 3705)
+Completed 200 OK in 25ms (Views: 23.2ms | Allocations: 4785)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2021-03-03 14:38:18 -0500
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 1.5ms | Allocations: 337)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.5ms | Allocations: 3262)
+Completed 200 OK in 14ms (Views: 12.6ms | Allocations: 3638)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2021-03-03 14:38:19 -0500
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 1.4ms | Allocations: 331)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.2ms | Allocations: 3249)
+Completed 200 OK in 11ms (Views: 10.0ms | Allocations: 3623)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2021-03-03 14:38:20 -0500
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 2.3ms | Allocations: 330)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 19.8ms | Allocations: 3248)
+Completed 200 OK in 24ms (Views: 22.2ms | Allocations: 3622)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2021-03-03 14:38:20 -0500
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 1.5ms | Allocations: 331)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.3ms | Allocations: 3256)
+Completed 200 OK in 14ms (Views: 13.3ms | Allocations: 3632)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2021-03-03 14:39:56 -0500
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 2.3ms | Allocations: 557)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 19.5ms | Allocations: 3656)
+Completed 200 OK in 30ms (Views: 28.1ms | Allocations: 4742)
+
+
+Started POST "/users/new" for 127.0.0.1 at 2021-03-03 14:40:18 -0500
+  
+ActionController::RoutingError (No route matches [POST] "/users/new"):
+  
+Started GET "/users/new" for 127.0.0.1 at 2021-03-03 14:41:43 -0500
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 2.7ms | Allocations: 646)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 13.1ms | Allocations: 3551)
+Completed 200 OK in 17ms (Views: 16.3ms | Allocations: 4047)
+
+
+Started POST "/users/new" for 127.0.0.1 at 2021-03-03 14:41:54 -0500
+  
+ActionController::RoutingError (No route matches [POST] "/users/new"):
+  
+Started GET "/users/new" for 127.0.0.1 at 2021-03-03 14:45:49 -0500
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 2.0ms | Allocations: 482)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 16.1ms | Allocations: 3581)
+Completed 200 OK in 23ms (Views: 21.6ms | Allocations: 4667)
+
+
+Started POST "/posts" for 127.0.0.1 at 2021-03-03 14:46:01 -0500
+  
+ActionController::RoutingError (No route matches [POST] "/posts"):
+  
+Started GET "/users/new" for 127.0.0.1 at 2021-03-03 14:47:53 -0500
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 2.1ms | Allocations: 482)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 12.5ms | Allocations: 3581)
+Completed 200 OK in 20ms (Views: 18.7ms | Allocations: 4666)
+
+
+Started POST "/users/new" for 127.0.0.1 at 2021-03-03 14:48:04 -0500
+  
+ActionController::RoutingError (No route matches [POST] "/users/new"):
+  
+Started GET "/users/new" for 127.0.0.1 at 2021-03-03 14:51:05 -0500
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 2.6ms | Allocations: 487)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 15.8ms | Allocations: 3586)
+Completed 200 OK in 22ms (Views: 19.4ms | Allocations: 4672)
+
+
+Started POST "/users" for 127.0.0.1 at 2021-03-03 14:51:13 -0500
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"s97@email.com", "username"=>"s97"}, "password"=>"[FILTERED]", "commit"=>"Create User"}
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/users_controller.rb:6:in `create'
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 4.6ms | Allocations: 1027)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 17.4ms | Allocations: 3881)
+Completed 200 OK in 59ms (Views: 18.5ms | ActiveRecord: 0.5ms | Allocations: 9859)
+
+
