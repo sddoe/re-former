@@ -1,22 +1,25 @@
 <h1>New User</h1>
 
-<%= form_with model: @user do |form| %>
-  <div>
-    <%= form.label :username %><br>
-    <%= form.text_field :username %>
-  </div>
+<form action="/users" accept-charset="UTF-8" method="post">
 
-  <div>
-    <%= form.label :email %><br>
-    <%= form.text_area :email %>
-  </div>
+    <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
 
-  <div>
-    <%= form.label :password %><br>
-    <%= form.password_field :password %>
-  </div>
+    <div>
+        <label for="user_email">Email</label><br>
+        <input type="text" name="user[email]" id="user_email">
+    </div>
 
-  <div>
-    <%= form.submit %>
-  </div>
-<% end %>
+    <div>
+        <label for="user_username">Username</label><br>
+        <input type="text" name="user[username]" id="user_username">
+    </div>
+
+    <div>
+        <label for="user_password">Password</label><br>
+        <input type="password" name="user[password]" id="user_password">
+    </div>
+
+    <div>
+        <input type="submit" name="commit" value="Create User" data-disable-with="Create User">
+    </div>
+</form>
