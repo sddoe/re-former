@@ -622,3 +622,126 @@ Processing by UsersController#new as HTML
 Completed 200 OK in 153ms (Views: 150.6ms | ActiveRecord: 0.0ms | Allocations: 8264)
 
 
+Started GET "/" for 127.0.0.1 at 2021-03-09 01:45:32 -0500
+  [1m[35m (3.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (6.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:4
+  Rendered users/index.html.erb within layouts/application (Duration: 75.4ms | Allocations: 4576)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/sdperdomo/re-former/public/packs
+[Webpacker] Hash: ce14c115e350524bb5a9
+Version: webpack 4.46.0
+Time: 4028ms
+Built at: 03/09/2021 1:45:39 AM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-b43fa54005da8e229d8c.js    125 KiB  application  [emitted] [immutable]  application
+js/application-b43fa54005da8e229d8c.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-b43fa54005da8e229d8c.js js/application-b43fa54005da8e229d8c.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 6691.1ms | Allocations: 10727)
+Completed 200 OK in 6737ms (Views: 6701.3ms | ActiveRecord: 1.9ms | Allocations: 13725)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2021-03-09 01:45:44 -0500
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 63.4ms | Allocations: 3189)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 78.9ms | Allocations: 6122)
+Completed 200 OK in 82ms (Views: 79.9ms | ActiveRecord: 0.0ms | Allocations: 6662)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2021-03-09 01:45:50 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/users/1"):
+  
+Started GET "/" for 127.0.0.1 at 2021-03-09 01:46:51 -0500
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/views/users/index.html.erb:4
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:4
+  Rendered users/index.html.erb within layouts/application (Duration: 27.1ms | Allocations: 4397)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 37.1ms | Allocations: 7305)
+Completed 200 OK in 45ms (Views: 38.5ms | ActiveRecord: 2.0ms | Allocations: 8201)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2021-03-09 01:46:53 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:7:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 42.2ms | Allocations: 196)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 58.7ms | Allocations: 3130)
+Completed 200 OK in 98ms (Views: 59.7ms | ActiveRecord: 0.4ms | Allocations: 4883)
+
+
+Started GET "/users/2" for 127.0.0.1 at 2021-03-09 01:46:56 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:7:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 0.4ms | Allocations: 69)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 14.8ms | Allocations: 2993)
+Completed 200 OK in 26ms (Views: 17.1ms | ActiveRecord: 0.2ms | Allocations: 3906)
+
+
+Started GET "/users/2/edit" for 127.0.0.1 at 2021-03-09 01:46:57 -0500
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:25:in `edit'
+  Rendering layout layouts/application.html.erb
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/edit.html.erb within layouts/application (Duration: 80.5ms | Allocations: 1067)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 90.2ms | Allocations: 3993)
+Completed 200 OK in 96ms (Views: 91.1ms | ActiveRecord: 0.2ms | Allocations: 5050)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2021-03-09 01:47:01 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:7:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 0.4ms | Allocations: 71)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.8ms | Allocations: 2995)
+Completed 200 OK in 21ms (Views: 16.3ms | ActiveRecord: 0.2ms | Allocations: 3908)
+
+
+Started GET "/users/1/edit" for 127.0.0.1 at 2021-03-09 01:47:02 -0500
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:25:in `edit'
+  Rendering layout layouts/application.html.erb
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/edit.html.erb within layouts/application (Duration: 2.1ms | Allocations: 678)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 13.0ms | Allocations: 3603)
+Completed 200 OK in 22ms (Views: 18.4ms | ActiveRecord: 0.2ms | Allocations: 4533)
+
+
